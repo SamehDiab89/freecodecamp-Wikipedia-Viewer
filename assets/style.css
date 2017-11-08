@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+}
+
+.main{
+	position: absolute;
+  width: 400px;
+  height: 100%;
+  z-index: 15;
+  top: 40%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+  text-align: center;
+}
+
+
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.random {
+	margin-bottom: 30px;
+}
+
+.randomButton {
+	width: 300px;
+}
+
+.text {
+    height: 100%;
+	margin-bottom: 20px;
+	background-color: #F5F5F5;
+	color: black;
+}
+
+.text:hover {
+	background-color: #A9A9A9;
+	color: #fff;
+}
+
+#description, #link, #name  {
+	margin : 10px 5px;
+	text-align: left;
+}
+
+#name > h5 {
+	padding-top: 10px;
+
+} 
+
+#clear {
+	width: 80%;
+	margin-bottom: 20px;
+	display: none;
+}
+
+#clearMsg {
+	background-color:#008000;
+	color: #fff;
+}
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
